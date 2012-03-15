@@ -1,4 +1,6 @@
 Prueba2::Application.routes.draw do
+  resources :tweets
+
   resources :zombies
 
   # The priority is based upon order of creation:
